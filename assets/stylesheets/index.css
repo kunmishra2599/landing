@@ -1,8 +1,13 @@
 .top{
     text-align:center;
     color: white;
-    margin-top:0px;
+    margin-top:-20px;
     padding-bottom:100px;
+    background-size: 103%;
+    background-image: url("../img/bg_top.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:0px 3px;
 }
 .middle {
     background-color: white;
@@ -17,7 +22,9 @@ h2 {
     font-family: 'Raleway', 'Arial', sans-serif;
 }
 .big-header {
-    font-size:60px
+    font-size:60px;
+    font-family: 'Varela Round', sans-serif;
+    margin-top:0px;
 }
 .header{
     margin-left:15%;
@@ -27,10 +34,25 @@ body{
     color:white;
 }
 html{
-    background-image: url("../img/bg_top.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    background-size:120%;
+    
     background-color: black;
+    
+}
+.myotherButton {
+    background-color:#45c7be;
+    border-radius: 26px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size:20px;
+	padding:10px 25px;
+	text-decoration:none;
+    transition: 0.2s;
+    width:75%;
+    text-align:center;
+}
+.myotherButton:hover {
+    background-color:#EF5350;
+    transform: translateY(2px);
 }
