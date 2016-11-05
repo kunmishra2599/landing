@@ -1,0 +1,36 @@
+.top{
+    text-align:center;
+    color: white;
+    margin-top:0px;
+    padding-bottom:100px;
+}
+.middle {
+    background-color: white;
+    color:black;
+}
+.end {
+    background-color:grey;
+    color:black;
+}
+
+h2 {
+    font-family: 'Raleway', 'Arial', sans-serif;
+}
+.big-header {
+    font-size:60px
+}
+.header{
+    margin-left:15%;
+    text-align: left;
+}
+body{
+    color:white;
+}
+html{
+    background-image: url("../img/bg_top.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size:120%;
+    background-color: black;
+}
