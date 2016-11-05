@@ -1,0 +1,27 @@
+<link rel="stylesheet" type="text/css" href="assets/stylesheets/navbar.css">
+<div class="navbar">
+	<div class="menutoggle" id="toggle">
+		<s class="bar"></s>
+		<s class="bar"></s>
+	</div>
+	<div class="menulist custom-menu-bottom custom-menu-tucked custom-menu pure-menu-horizontal pure-menu-scrollable" id="tuckedMenu">
+		<div class="custom-menu-screen"></div>
+		<div class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></div>
+		<div class="pure-menu-item"><a href="#" class="pure-menu-link">Cities</a></div>
+		<div class="pure-menu-item"><a href="#" class="pure-menu-link">Categories</a></div>
+		<div class="pure-menu-item"><a href="#" class="pure-menu-link">Newsletter</a></div>
+		<div class="pure-menu-item"><a href="#" class="pure-menu-link">Opportunities</a></div>
+	</div>
+	<div class="menubuttons">
+		<div class="myButton">Post Opportunities</div>
+	      <div class="myButton">Sign Up</div>
+	</div>
+</div>
+<script>
+	(function (window, document) {
+	document.getElementById('toggle').addEventListener('click', function (e) {
+		document.getElementById('tuckedMenu').classList.toggle('custom-menu-tucked');
+		document.getElementById('toggle').classList.toggle('x');
+		});
+	})(this, this.document);
+</script>
