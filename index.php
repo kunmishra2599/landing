@@ -21,10 +21,11 @@
 				<h2 class="big-header">LEARN. CREATE. SERVE.</h2>
 			</div>
 			<div class="pure-u-2-3"></div> <!--Spacers-->
-			<div class="pure-u-1-5 header">
+			<div class="pure-u-1-4 header">
 				<div class="myotherButton">Post opportunity ></div>
 			</div>
-			<div class="pure-u-4-5"></div> <!--Spacers-->
+			<!--<div class="pure-u-4-5"></div> Spacers-->
+			<input class="pure-input-2-3" type="text" placeholder=".pure-input-2-3">
 		</div>
 
 
