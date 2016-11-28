@@ -8,6 +8,7 @@
   		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 		<LINK href="assets/stylesheets/pgName.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 		<link href="assets/stylesheets/index.css" rel="stylesheet">
 	</head>
 	<body>
@@ -25,7 +26,8 @@
 				<div class="myotherButton">Post opportunity ></div>
 			</div>
 			<!--<div class="pure-u-4-5"></div> Spacers-->
-			<input class="pure-input-2-3" type="text" placeholder=".pure-input-2-3">
+			<input class="pure-input-2-3 search_bar_big" type="text" placeholder="Search for Opportunities, Organisations and more.">
+			<input class="pure-input-1-3 search_bar_small" type="text" placeholder="Anywhere">
 		</div>
 
 

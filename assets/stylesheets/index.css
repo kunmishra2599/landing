@@ -56,3 +56,27 @@ html{
     background-color:#EF5350;
     transform: translateY(2px);
 }
+
+.search_bar_big{
+    width:50%;
+    margin:20px; 
+    margin-bottom:-20px;
+    margin-left:15%;
+    height:45px;
+    border-radius:3px;
+    border-color:white;
+    font-size:22px;
+    text-align: center;
+    font-family: 'Raleway', 'Arial', sans-serif;
+}
+.search_bar_small{
+    width:20%;
+    margin:20px; 
+    margin-bottom:-20px;
+    height:45px;
+    border-radius:3px;
+    border-color:white;
+    font-size:22px;
+    text-align: right;
+    font-family: 'Raleway', 'Arial', sans-serif;
+}
